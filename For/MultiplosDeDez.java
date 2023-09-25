@@ -8,9 +8,9 @@ public static void main(String[] args) {
 		int i;
 		
 		
-		for(i=1;i<101;i++ );
-		 System.out.println(i);
-   if(i%10==i) {
+		for(i=1;i!=101;i++  ) {
+			
+   if(i%10==i-(i*10-i*9)) {
 
 	   System.out.println(i+" é multilo de 10");
    }
@@ -19,5 +19,6 @@ public static void main(String[] args) {
 		 System.out.println(i);  
 	   }	   
 
+}
 }
 }
