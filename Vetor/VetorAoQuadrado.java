@@ -1,9 +1,9 @@
-package Exercicio;
+package Exercicios;
 import java.util.Scanner;
 public class VetorAoQuadrado {
 
 	public static void main (String [] args) {
-	 
+		 
 		Scanner in = new Scanner (System.in);
 		
 		int a[]= new int [10], i;
@@ -12,7 +12,7 @@ public class VetorAoQuadrado {
 		
 		for(i=0; i<10; i++) {
 		
-		System.out.println("coloque o " +(i+1)+ "บ numero");
+		System.out.println("coloque o " +(i+1)+ "ยบ numero");
 		
 		a[i]=in.nextInt();
 		
@@ -21,7 +21,7 @@ public class VetorAoQuadrado {
 		System.out.print("[a] = [ ");
 		for(i=0; i<10; i++) {
 		
-		System.out.print(a[i]*a[i] );	
+		System.out.print(a[i]*a[i] +" " );	
 			
 			}
        System.out.print(" ]");
