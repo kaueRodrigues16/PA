@@ -6,7 +6,7 @@ public class VetorFatorial {
 		
 	Scanner in= new Scanner(System.in);	
 	
-	final int TAM=5;
+	final int TAM=15;
 	int a[],b[],i,n,r;
 	a= new int[TAM];
 	b= new int[TAM];
