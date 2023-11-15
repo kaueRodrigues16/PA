@@ -29,7 +29,7 @@ public static void main(String[]args) {
 			
 			else {
 				
-					System.out.println("Para a["+i+"]"+"=" +a[i]);
+					
 					for(n=a[i]-1; n>=0; n=n-2) {
 						//a[i]-1 pois a[i] é impar
 							 System.out.println(" ");
