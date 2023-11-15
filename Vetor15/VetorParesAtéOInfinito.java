@@ -17,6 +17,16 @@ public static void main(String[]args) {
 		
 		}
 	
+       System.out.print("a[]=[ ");
+		
+		for(i=0; i<TAM; i++) {
+		 
+			
+			System.out.print(a[i] + " ");
+		}
+		
+		System.out.print( "]");
+		
 		for(i=0; i<TAM; i++) {
 			System.out.println("Para a["+i+"]"+"=" +a[i]);
 		if(a[i]%2==0) {
