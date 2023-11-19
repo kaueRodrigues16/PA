@@ -5,7 +5,7 @@ public class VetorInterseçao {
 		
 		 Scanner in= new Scanner(System.in);
 		   
-		   final int TAM=5;
+		   final int TAM=10;
 		   int a[],b[],c[],i,j;
 		   a= new int[TAM];
 	       b= new int[TAM];
@@ -44,15 +44,7 @@ public class VetorInterseçao {
 				System.out.print(c[i]+" ");
 				
 				}
-				 if(a[j]!=b[i]) {
 				
-					j=TAM-1;
-					i=TAM-1;
-					//ain
-				System.out.print("a[] e b[] são dijuntos ");
-				
-				}
-			
 			
 			}
 			
